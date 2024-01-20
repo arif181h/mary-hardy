@@ -28,6 +28,7 @@ font-weight: 700;
 border: none;
 padding: 8px 10px;
 }
+/*nav-related-styles*/
 nav{
     display: flex;
     justify-content: space-between;
@@ -86,7 +87,7 @@ font-weight: 400;
 /*section-one related styles*/
 .section-one, .info {
     background: #FFF8F3;
-    margin: 70px 80px;
+    margin: 80px 70px;
     padding: 40px 0;
     
 }
@@ -114,6 +115,9 @@ max-width: 827px;
 .section-one p{
     text-align: center;
 }
+
+
+/*container-related-styles*/
 .container{
     display: flex;
     justify-content: space-around;
@@ -132,4 +136,74 @@ max-width: 201px;
 border-radius: 5px;
 background: #FFF;
 box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+
+/*section three-related-styles*/
+
+.section-three{
+    display: flex;
+    gap: 50px;
+    margin: 80px 70px;
+}
+.first-div, .second-div{
+    max-width: 470px;
+}
+.section-three .first-div h2, .second-div h2{
+    color:#474747;
+font-size: 15px;
+font-weight: 700;
+}
+.section-three .first-div p, .second-div p{
+    text-align: left;
+}
+.all{
+    text-align: center;
+}
+.button{
+    margin-top: 50px;
+}
+
+
+
+/*footer-related-styles*/
+
+footer{
+    background: #FFF8F3;
+    padding: 198px 230px;
+    
+}
+
+
+.footerone{
+    max-width: 500px;
+    
+}
+.footertwo{
+    max-width: 500px;
+    
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+
+.footer-container *{
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+
+.contact input[type="text"], .contact input[type="email"], textarea{
+    display: block;
+    padding: 10px 8px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    color:#757575;
+font-size: 16px;
+font-weight: 400;
+
 }
